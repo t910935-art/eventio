@@ -6,7 +6,6 @@
     "build": "blitz build",
     "start": "blitz start",
     "studio": "blitz prisma studio",
-    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "prepare": "husky install"
@@ -50,9 +49,6 @@
     "@typescript-eslint/eslint-plugin": "5.42.1",
     "@vitejs/plugin-react": "2.2.0",
     "ajv": "^7.0.0",
-    "eslint": "8.27.0",
-    "eslint-config-next": "12.3.1",
-    "eslint-config-prettier": "8.5.0",
     "husky": "8.0.2",
     "jsdom": "20.0.3",
     "lint-staged": "13.0.3",
