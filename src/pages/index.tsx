@@ -1,8 +1,8 @@
-import { Suspense } from "react"
-import Link from "next/link"
-import Layout from "src/core/layouts/Layout"
-import { BlitzPage } from "@blitzjs/next"
-import { UserInfo } from "../components/Userinfo"
+import { Suspense } from "react";
+import Link from "next/link";
+import Layout from "src/core/layouts/Layout";
+import { BlitzPage } from "@blitzjs/next";
+import { UserInfo } from "../core/components/Userinfo";
 
 const Home: BlitzPage = () => {
   return (
@@ -11,7 +11,7 @@ const Home: BlitzPage = () => {
         <UserInfo />
       </Suspense>
     </Layout>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
